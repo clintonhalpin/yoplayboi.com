@@ -1,0 +1,42 @@
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	width: 100%;
+	background: black;
+}
+
+body {
+	padding: 1rem;
+}
+
+.player {
+	width: 100%;
+	height: 80vh;
+	background-image: url(http://s3.crackedcdn.com/blogimages/2009/03/cage5.jpg);
+	background-repeat:no-repeat;
+	background-size: cover;
+	margin: 0 auto;
+	position: relative;
+}
+
+.playboi {
+	content: "Yo playboi";
+  position: absolute;
+	bottom: 0;
+	color: #d7cfb1;
+	text-align: center;
+	width: 100%;
+	font-size: 10vw;
+	padding: 2rem;
+	text-shadow: 1px 1px 4px black;
+}
+
+.button {
+	text-align: center;
+	padding: 1rem;
+	background: white;
+	color: blue;
+}
